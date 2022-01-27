@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Universidade Educare</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+        <!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css">
+		
+		
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+		<!-- Estilos Personalizados -->
+		
+        <link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css">
+    </head>
+   
+    <body>
+
+
+       <!------Heeader----->
+
+        <section class="sub-header">
+            <nav class="navegador">
+            <a href="projeto-modulo-9.html"><img src="./CSS/imagens/logo.png" alt="logotipo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-HOME.html">HOME</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-SOBRE.html">SOBRE</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-CURSOS.html">CURSOS</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-CONTATO.html">CONTATO</a></li>
+                    </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Entre Em Contato</h1>
+        </section>
+
+
+        <!-----Nos Contate------>
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188820.80503400395!2d-71.11036862171201!3d42.314264701356656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA!5e0!3m2!1sen!2sus!4v1642730477368!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="noscontate">
+        <div class="row">
+            <div class="contate-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>123, Pleasant Street ABC Building</h5>
+                        <p>Boston, Massachucetts</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+1 555-455-4344</h5>
+                        <p>Segunda à Sexta, Das 10AM ás 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope-square"></i>
+                    <span>
+                        <h5>info@educare.com</h5>
+                        <p>Nos Envie Suas Dúvidas</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contate-col">
+                <form action="">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Assunto" required> 
+                    <textarea rows="8" placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="center-btn btn-laranja">Enviar Mensagem</button>
+               </form>
+            </div>
+        </div>
+        </section>
+        
+        <!------Footer------>
+
+         
+         <section class="footer">
+             <h4>Sobre Nós</h4>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus nihil expedita accusantium necessitatibus ab commodi, 
+                veritatis molestias natus<br>voluptatem nisi soluta praesentium enim laudantium in provident! Non harum at minus.</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p>Feito com <i class="far fa-heart"></i> por Felipe Reis.</p>
+        </section>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!------JavaScript para o Toggle Menu--------->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            
+            function showMenu () {
+                navLinks.style.right = "0";
+            }
+            function hideMenu () {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+
+
+
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

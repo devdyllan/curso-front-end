@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Universidade Educare</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+        <!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css">
+		
+		
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+		<!-- Estilos Personalizados -->
+		
+        <link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css">
+    </head>
+   
+    <body>
+
+
+       <!------Heeader----->
+
+        <section class="sub-header">
+            <nav class="navegador">
+            <a href="projeto-modulo-9.html"><img src="./CSS/imagens/logo.png" alt="logotipo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-HOME.html">HOME</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-SOBRE.html">SOBRE</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-CURSOS.html">CURSOS</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="./projeto-modulo-8-CONTATO.html">CONTATO</a></li>
+                    </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Sobre Nós</h1>
+        </section>
+
+
+        <!-----Conteudo-Sobre Nos------>
+
+        <section class="sobre-nos">
+  
+        <div class="row">
+            <div class="sobrenos-col">
+                <h1>Nós Somos A Maior Universidade Do Mundo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae, laborum deleniti esse, commodi reiciendis quis asperiores, minima mollitia fuga id repellendus. 
+                Similique adipisci reiciendis reprehenderit. Labore saepe expedita vero iusto.</p>
+                <a href="" class="center-btn btn-laranja">SAIBA MAIS</a>
+            </div>   
+            <div class="sobrenos-col">
+                <img src="./CSS/imagens/about.jpg">
+            </div>
+        </div>
+
+
+        </section>
+        
+        
+        <!------Footer---->
+
+         
+         <section class="footer">
+             <h4>Sobre Nós</h4>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus nihil expedita accusantium necessitatibus ab commodi, 
+                veritatis molestias natus<br>voluptatem nisi soluta praesentium enim laudantium in provident! Non harum at minus.</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p>Feito com <i class="far fa-heart"></i> por Felipe Reis.</p>
+        </section>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!------JavaScript para o Toggle Menu--------->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            
+            function showMenu () {
+                navLinks.style.right = "0";
+            }
+            function hideMenu () {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+
+
+
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

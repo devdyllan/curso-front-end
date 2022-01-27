@@ -1,0 +1,196 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+	color: #454545;
+}
+
+header p {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+
+header h2 {
+	font-weight: 1000;
+	color: #f9f9f9;;
+
+}
+
+
+header > h2 {
+	font-weight: 00;
+	color: #f9f9f9;
+}
+
+h2 + p {
+	background: #ee6c4d;
+	color: black;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+	padding: .3rem;
+	padding-top: 0.7rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+	color: #F9F9F9;
+}
+
+h2 > p {
+	padding: 1rem;
+}
+
+
+/* Pseudo-classes */
+
+a {
+	color: #F9F9F9;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.2rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+
+
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'merryweather', sans-serif;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;	
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font: italic bold 1.2rem/2 sans-serif;
+}
+
+nav h3{
+	color: black;
+}
+
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	background: url('./imagens/pattern.jpg') center top repeat #EEEEEE;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.9);
+}
+
+p {
+	color: #034589;
+}
+
+header,
+footer {
+	background-color: #034589;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: #ebebeb;
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: black;
+	font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+	background-color: #F9F9F9;
+	color: #333333;
+}
+
+h2, h5{
+	font-size: 2.3rem;
+	padding-top: .8rem;
+}
+
+
+nav h3{
+	padding-left: 0.5rem;
+}
+
+

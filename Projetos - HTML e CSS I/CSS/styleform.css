@@ -1,0 +1,125 @@
+/* Arquivo CSS com estilos dos elementos de todas as páginas */
+
+
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  
+			  font-family: Lato, sans-serif;
+		
+			}
+
+			/* Style the header */
+			header {
+			  background-color: black;
+			  padding: 25px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			  margin: 15px ;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 25%;
+			  background: #EBEDEF;
+			  padding:10px;
+			 
+			  /*! margin: ; */
+			}
+
+			/* Style the list inside the menu */
+			nav li {
+			  list-style-type: square ;
+			  padding: -5px;
+			  margin-bottom: 10px;
+			  background-color: #EBEDEF; 
+			  width: 100%;
+			}
+			
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #EBEDEF;
+			}	  
+
+			
+			a { 
+				color:black; 
+				text-decoration: none;
+			}
+				
+
+			form div {
+
+				margin: 15px;
+				padding: 10px;
+			}
+
+	
+      		a:hover {
+         		font-size: 18px;
+         		text-decoration: underline;
+      			}
+      			
+
+			label {
+					margin-bottom: 1px;
+					font-size: 14.5px;
+					font-family: sans-serif;
+					font-weight: bold;
+				}	
+
+			form {
+				padding: 15px;
+			}
+
+			input { margin-bottom: 15px;
+					border: .5px solid;
+			 }
+				
+			
+
+			[type="text"], [type="email"], textarea, label {
+				width: 100%;
+				display: block;
+				margin-bottom: 15px;
+				padding: 0px 0px 05px 05px;
+				} 
+
+
+				form label{
+					position: relative;
+					top: 10px;
+				}
+			
+
+			/* Clear floats after the columns */
+			section::after {
+				  background-color: white;
+				  content: "";
+				  display: block;
+				  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+				  background-color: black;
+				  padding: 10px;
+				  text-align: center;
+				  color: white;
+				  margin-top: 15px;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 500px) {
+				  nav, article {
+				    width: 100%;
+				    height: auto;
+			  }
+			}
