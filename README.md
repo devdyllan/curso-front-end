@@ -26,6 +26,8 @@ https://git-scm.com/
  ## Clonar o projeto
  git clone https://github.com/devdyllan/curso-front-end.git
 
+ Acessar pasta do Git - cd curso-front-end
+
  ## Commits
  Informação de alteração
  - após testado todo seu código
