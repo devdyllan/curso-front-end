@@ -24,7 +24,7 @@ https://git-scm.com/
  ## Criar conta no GitHub
 
  ## Clonar o projeto
- git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
+ git clone https://github.com/devdyllan/curso-front-end.git
 
  ## Commits
  Informação de alteração
