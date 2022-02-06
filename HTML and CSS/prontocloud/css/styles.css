@@ -14,7 +14,7 @@ body {
 
 .main-container{
     margin: 0 auto;
-    width: 92.5vw;
+    width: 100vw;
     display: block;
 }
 
@@ -132,12 +132,20 @@ footer small {
     display: block;
 }
 
+.cognito {
+    height: 370px !important;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+}   
 
-
-
-
-
-
-
+#tenho-interesse {
+    width: 100vw;
+    border-top: 1px solid #254195;
+}
 
