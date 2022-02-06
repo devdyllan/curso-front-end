@@ -28,7 +28,7 @@
       LEAD (e-mail)
 
 
-## Breafing 
+## Briefing 
  - Criar uma campanha de inbound marketing para divulgar seus servicos de criacao de sites, landing pages e e-mail,
  - Gerar leads qualificados, com real interesse nos servicos oferecidos (call-to-action: e-mail*),
  - Criar conteudo para post (blog), e-mail marketing and landing page ,
