@@ -1,0 +1,22 @@
+
+# Exercicio
+
+1. Criar uma conta no GitHub (github.com)
+
+2. Criar um repositorio publico: front-end
+
+3. Clonar o repositorio criado, exemplo:
+   -git clone https://github.com/devdyllan/curso-front-end.git
+
+4. Adicionar seus arquivos (precisa copiar todos os seus arquivos do curso, exceto os .zip)
+    -git add *
+
+5. comitar seu codigo 
+    -git  commit -b 'nome do comite'
+
+6. Subir as alteracoes
+
+7. Enviar os link para seu repositorio criado na plataforma da EBAC, exemplo:
+    https://github.com/devdyllan/curso-front-end
+
+8. DESAFIO: Criar apresentacao pessoal no GitHub.
