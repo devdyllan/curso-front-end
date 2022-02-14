@@ -1,6 +1,12 @@
 
 
 
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
 html {
     font-size: 62,5%;
     background-color: #fff; 
@@ -9,6 +15,7 @@ html {
 body {
     font-family: "Source Sans Pro";
 }
+
 
 .main-container{
     margin: 0 auto;
