@@ -66,19 +66,33 @@
                    </div>
                </section>
 
-               <section id="tenho-interesse">
-                    <div class="container">
-                        <article class="formulario-head">
-                            <h1 >Ficou interessado?</h1>
-                            <p>Então preencha os campos abaixo para receber mais informaçōes sobre nossos produtose serviços.</p>
-                          <div class="cognito"> <!----formulario-->
-                            <script src="https://www.cognitoforms.com/f/seamless.js" data-key="zXMC8pwpTECbNuOhxenndQ" 
-                            data-form="1"></script>
-                          </div>
-                        </article>
-                    </div>            
-                </section>   
-            </div>   
+            <section id="tenho-interesse">
+                <div class="wrap-container">
+                    <article class="formulario-head">
+                        <h1 >Ficou interessado?</h1>
+                        <p>Então preencha os campos abaixo para receber mais informaçōes sobre nossos produtos e serviços.</p>
+                    </article>
+
+                    <form class="form" action="https://formspree.io/f/mayvoezb" method="POST" id= "my-form">
+                        <h1 id="head-title">Tenho Interesse</h1>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="Mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="8"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                        <div id="status"></div>
+                    </form>
+                </div>            
+                </section>  
+                <script src="./main.js"></script>   
 
                 <footer class="foote-sm">
                         <div class="container">

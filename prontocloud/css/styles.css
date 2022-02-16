@@ -17,7 +17,6 @@ body {
     font-family: "Source Sans Pro";
 }
 
-
 .main-container{
     margin: 0 auto;
     max-width: 100%;
@@ -144,87 +143,103 @@ footer small {
     display: block;
 }
 
-.cognito {
-    height: 370px !important;
-    overflow: hidden;
-    margin-top: 30px;
-}
 
 img {
     max-width: 100%;
     height: auto;
 }   
+ 
+
+/* ------formulario----*/
+
+
+/*.wrap-container {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}*/
+    
 
 #tenho-interesse {
     width: 97.05%;
     border-top: 1px solid black;
     padding: 20px;
+    margin: auto;
     align-content: center;
     display: block;
 }
 
+.wrap-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.formulario-head h1,
+form {
+text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formulario-head h1,    
 .formulario-head p {
-    padding-left: 2px;  
+    padding-left: 2px; 
+    padding-bottom: 20px; 
     line-height: 1;
 }
 
-/*-----layout-responsivo-mobile--------*/
-
-
-@media (max-width: 414px) {
-
-
-    .nav, .article {
-        width: 94%;
-    }
-    .container {
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-right: 10px;
-    }
-    img { 
-        max-width: 100%
-    }
-    h1 {
-        font-size: 1.8rem;
-    }
-    h2, h3 {
-        font-size: 1.4rem;
-    }
-    footer {
-        width: 95%;
-    }
+#head-title {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 1.7rem;
 }
 
-@media (max-width: 880px) {
-    .nav, .article {
-        width: 94%;
-    }
-    .container {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    img { 
-        max-width: 100%;
-    
-    }
-    h1 {
-        font-size: 1.8rem;
-    }
-    h2, h3 {
-        font-size: 1.4rem;
-    }
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
 
-    html .cog-cognito *, html .cog-cognito *::before, 
-    html .cog-cognito *::after, 
-    :root:root:root:root:root .cog-cognito *, 
-    :root:root:root:root:root .cog-cognito *::before, 
-    :root:root:root:root:root .cog-cognito *::after 
-    {
-        float: left;
-    }
+.form-group input, 
+.form-group textarea {
+    width: 45%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    cursor: pointer;
+    width: auto;
+    width: 120px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro';
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e4d08e;
 }
 
 
@@ -238,7 +253,6 @@ img {
     width: 100%;
     height: 400px;
 }
-
 
 .legenda-container {
     width: 30vw;    
@@ -260,8 +274,6 @@ img {
     line-height: 1;
 }
 
-
-
 .footer-sm {
     background-color: #c4a644;
     float: left;
@@ -276,13 +288,14 @@ img {
     display: inline;
     background-color: #c4a644;
     color: #fff;
-    font-size: 17.5px;
+    font-size: 16px;
     box-shadow: 1px 1px 4px rgb(82, 80, 80);
-    padding: 10px 20px;
+    padding: 12px 6px;
     width: auto;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     float: right;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -291,16 +304,17 @@ img {
     display: inline;
     background-color: #c4a644;
     color: #fff;
-    font-size: 17.5px;  
-    box-shadow: 1px 1px 4px rgb(82, 80, 80);
-    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 1px 1px 4px rgb(82 80 80);
+    padding: 12px 6px;
     width: auto;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     float: right;
     text-transform: uppercase;
     margin-right: 180px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .btn-cta-duvidas {
@@ -308,19 +322,32 @@ border-radius: 25px;
 display: inline;
 background-color: #c4a644;
 color: #fff;
-font-size: 17.5px;
+font-size: 16;
 box-shadow: 1px 1px 4px rgb(82, 80, 80);
-padding: 10px 20px;
+padding: 12px 6px;
 width: auto;
 text-decoration: none;
-font-weight: 400;
+font-weight: 600;
 float: left;
+text-align: center;
 text-transform: uppercase;
 margin: 15px 0 15px 20px; /*----top-right-bottom-left--*/
 }
 
+.btn-cta-blog:hover {
+    background-color: #e2d3a1;
+    color: rgb(92, 86, 86);
+}
+.btn-cta-duvidas:hover {
+    background-color: #e2d3a1;
+    color: rgb(92, 86, 86);
+}
+.btn-cta:hover {
+    background-color: #e2d3a1;
+    color: rgb(92, 86, 86);
+}
 
-
+/*------saiba-mais-----*/
 
 #saiba-mais {
     background-color: #cac7c6;
@@ -354,7 +381,7 @@ margin: 15px 0 15px 20px; /*----top-right-bottom-left--*/
 
 dt {
     font-weight: 600;
-    font-size: 1.4rem;      /*-----defines-terms--------*/
+    font-size: 1.3rem;      /*-----defines-terms--------*/
     padding-left: 20px;
 }
     
@@ -362,7 +389,7 @@ dt {
 dd { 
     margin-left: 20px;
     margin-bottom: 20px;
-    font-size: 1.2rem;          /*------defines-description-----*/
+    font-size: 1.05rem;          /*------defines-description-----*/
     color: #cac7c6;
     font-family: 'Source Sans Pro';  
 }
@@ -375,6 +402,62 @@ dl {
 .duvidas-frequentes {
     border-top: solid 1px black; 
 }
+
+
+
+
+/*-----layout-responsivo-mobile--------*/
+
+
+ 
+ 
+@media (max-width: 880px) {
+    .nav, .article {
+        width: 93%;
+    }
+
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .saiba-mais p {
+        width: 90%;
+    }
+    
+    .duvidas-frequentes {
+        width: 90%;
+    }
+
+    img { 
+        max-width: 100%;
+    
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2, h3 {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        background-color: #c4a644;  
+        float: left;
+        width: 100%;
+        padding: 18px 0 9px 0px;
+    }
+    .btn-cta-blog {
+        float: left;
+        display: block;
+    }
+
+}
+
+
+
+
+
+
 
 
 
