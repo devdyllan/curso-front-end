@@ -36,3 +36,18 @@
  - Post para redes sociais: text+foto+url curta,
  - Incluir hospedagem (servidor web)
  - Git. (historico de evolucao: comites detalhados)
+
+
+### URL
+Uniform Resource Locator
+
+URL amigavel: Humanos e mecanismos de buscas.
+
+Encurtador de URL: The tiny URL shortener (extensao google chrome)
+
+
+
+
+
+
+
