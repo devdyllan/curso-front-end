@@ -179,21 +179,33 @@ img {
 }
 
 form {
-text-align: center;
+text-align: left;
+margin-left: 20px;
 }
 
 label {
     display: block;
     font-size: 17px;
     font-weight: 600;
+}       
+
+.formulario-head {
+    padding-bottom: 27px;
 }
 
-.formulario-head h1,    
-.formulario-head p {
-    padding-left: 2px; 
-    padding-bottom: 20px; 
-    line-height: 1;
+.formulario-head h1 {
+    padding-left: 20px;
+    margin-bottom: 7px;
 }
+
+  
+.formulario-head p {
+    padding-left: 20px;
+    margin-bottom: 23px;
+    line-height: 1;
+    margin-top: 0;
+}  
+
 
 #head-title {
     padding: 0;
@@ -210,7 +222,7 @@ label {
 
 .form-group input, 
 .form-group textarea {
-    width: 45%;
+    width: 52%;
     padding: 5px;
     font-size: 18px;
     border: 1px solid rgba(128, 128, 128, 0.199);
@@ -349,9 +361,10 @@ margin: 15px 0 15px 20px; /*----top-right-bottom-left--*/
 
 /*------saiba-mais-----*/
 
-#saiba-mais {
-    background-color: #cac7c6;
+.saiba-mais {
+    background-color: #fff;
     padding: 40px 20;
+    border-bottom: solid 1px black; 
 }
 
 .saiba-mais p,
@@ -400,7 +413,7 @@ dl {
 }
 
 .duvidas-frequentes {
-    border-top: solid 1px black; 
+    margin-left: 20px;
 }
 
 
@@ -412,32 +425,39 @@ dl {
  
  
 @media (max-width: 880px) {
+
     .nav, .article {
-        width: 93%;
+        width: 93%;s
     }
 
     .container {
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 4%;
+        padding-right: 3%;  
     }
 
     .saiba-mais p {
-        width: 90%;
+        width: 85%; 
     }
     
     .duvidas-frequentes {
-        width: 90%;
+        width: 82%;
     }
 
-    img { 
-        max-width: 100%;
-    
+    .saiba-mais img { 
+       width: 80%;
     }
+
     h1 {
         font-size: 1.8rem;
+        padding-left: 0%;
     }
+
     h2, h3 {
         font-size: 1.4rem;
+    }
+
+    footer p {
+        margin-left: -10px;
     }
 
     footer {
@@ -446,11 +466,33 @@ dl {
         width: 100%;
         padding: 18px 0 9px 0px;
     }
+
     .btn-cta-blog {
         float: left;
         display: block;
+        margin-left: 25px;
     }
 
+    .btn-cta {
+        padding: 9px 1px;
+        width: 69%;
+        font-size: 15px;
+        display: block;
+    }
+    
+    .legenda {
+        padding: 6px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .legenda h5 {
+        width: 105%
+    }
+
+    .form-group input, .form-group textarea {
+        width: 75% 
+    }
 }
 
 
