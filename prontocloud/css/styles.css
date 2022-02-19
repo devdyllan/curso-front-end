@@ -222,7 +222,7 @@ textarea {
 button[type="submit"] {
     cursor: pointer;
     width: auto;
-    width: 120px;
+    width: 52%;
     border: none;
     outline: none;
     margin-top: 10px;
