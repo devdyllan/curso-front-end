@@ -43,7 +43,7 @@ Uniform Resource Locator
 
 URL amigavel: Humanos e mecanismos de buscas.
 
-Encurtador de URL: The tiny URL shortener (extensao google chrome)
+Encurtador de URL: The tiny URL shortener (extençao google chrome)
 
 
 
