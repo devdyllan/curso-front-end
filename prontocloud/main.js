@@ -20,7 +20,7 @@ async function handleSubmit(event) {
     } else {
       response.json().then(data => {
         if (Object.hasOwn(data, 'errors')) {
-          status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          status.innerHTML = data["errors"].map(error => error["mensagem"]).join(", ")
         } else {
           status.innerHTML = "Ops! Ocorreu um problema ao enviar seu formulário"
         }
