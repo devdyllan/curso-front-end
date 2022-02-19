@@ -48,7 +48,7 @@ h1 {
     padding: 15px;
 }
 
-h2{
+h2 {
     font-size: 1.6rem;
     color: #c4a644 ;
     margin-bottom: 18px;
@@ -61,7 +61,7 @@ h3 {
     padding-top: 10px;
 }
 
-h4{
+h4 {
     font-size: 1.2rem;
     color: #c4a644 ;
     margin-bottom: 13px;
@@ -179,7 +179,7 @@ img {
 }
 
 form {
-text-align: left;
+text-align: center;
 margin-left: 20px;
 }
 
@@ -190,14 +190,8 @@ label {
 }       
 
 .formulario-head {
-    padding-bottom: 27px;
+    padding-bottom: 10px;
 }
-
-.formulario-head h1 {
-    padding-left: 20px;
-    margin-bottom: 7px;
-}
-
   
 .formulario-head p {
     padding-left: 20px;
@@ -205,14 +199,6 @@ label {
     line-height: 1;
     margin-top: 0;
 }  
-
-
-#head-title {
-    padding: 0;
-    margin: 0;
-    color: black;
-    font-size: 1.7rem;
-}
 
 .form-group {
     width: 100%;
@@ -427,7 +413,7 @@ dl {
 @media (max-width: 880px) {
 
     .nav, .article {
-        width: 93%;s
+        width: 93%;
     }
 
     .container {
@@ -449,7 +435,7 @@ dl {
 
     h1 {
         font-size: 1.8rem;
-        padding-left: 0%;
+        padding-left: 6%;
     }
 
     h2, h3 {
@@ -470,7 +456,7 @@ dl {
     .btn-cta-blog {
         float: left;
         display: block;
-        margin-left: 25px;
+        margin-left: 40px;
     }
 
     .btn-cta {
@@ -489,6 +475,23 @@ dl {
     .legenda h5 {
         width: 105%
     }
+
+    form {
+        margin-left: -32px; 
+    }
+
+    .formulario-head {
+        width: 85%;
+        padding-left: 17px;
+        margin-bottom: 23px;
+        line-height: 1;
+        margin-top: 0;
+    }
+
+    .formulario-head h1 {
+        padding-left: 3%;
+    }
+
 
     .form-group input, .form-group textarea {
         width: 75% 
