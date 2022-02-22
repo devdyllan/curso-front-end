@@ -47,6 +47,22 @@ Encurtador de URL: The tiny URL shortener (extensao google chrome)
 
 
 
+### Exercício 
+
+1. Criar Landing Page ✅
+2. Criar NewsLetter. 
+3. Publicar projeto em um servidor web ✅
+4. Criar uma URL amigável para compartilhamento: https://bit.ly/35057vz ✅
+5. Convidar pessoas nas redes sociais para sua landing page.
+6. Enviar Newsletter para lista de contatos com o link para página do post:
+7. Comitar código no seu repositório do GitHub ✅
+8. Enviar links para avaliação na plataforma EBAC.
+
+
+
+
+
+
 
 
 
