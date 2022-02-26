@@ -1,29 +1,35 @@
 
 
 
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
 
 html {
     font-size: 62,5%;
+    background-color: #fff; 
 }
 
 body {
     font-family: "Source Sans Pro";
-    background-color: #f5f5f5;
-    
 }
 
 .main-container{
     margin: 0 auto;
-    width: 100vw;
+    max-width: 100%;
     display: block;
 }
 
 .container{
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    margin: 0 !important;
     display: block;
     float: left;
+    max-width: 100%;
 }
 
 .header {
@@ -31,60 +37,69 @@ body {
     float: left;
     width: 100%;
     background: #fff;
-    padding: 20px;
-    border-bottom: 1px solid #4329b8;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
 }
 
 h1 {
-    font-size: 2,4rem;
+    font-size: 2rem;
     color: #c4a644 ;
     margin-bottom: 18px;
+    padding: 15px;
 }
 
-h2{
-    font-size: 2rem;
+h2 {
+    font-size: 1.6rem;
     color: #c4a644 ;
     margin-bottom: 18px;
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #c4a644 ;
     margin-bottom: 18px;
     padding-top: 10px;
 }
 
-h4{
-    font-size: 1.6rem;
+h4 {
+    font-size: 1.2rem;
     color: #c4a644 ;
     margin-bottom: 13px;
-    padding-top: 10px;
-}
+    padding-top: 10px;  
+}   
 
 p {
-    margin-bottom: 10px;
-    line-height: 1.3;
-    color: #cac7c6 ;
+    font-size: 17px;
+    line-height: 1.2;
+    color: #cac7c6;
+    padding-left: 15px;
+    width: 95%;
 }   
 
 .guide {
     margin-bottom: 20px;
     margin-left: 30px;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     color: #cac7c6 ;
 
 }
 
 section {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: block;
-    width: 100%;
+    width: 100vw;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     background-color: #fff;
 }
 
-.nav {
+.article {
+    display: block;
+    float: left;
+    width: 65%;
+}
+
+.nav {  
     display: block;
     float: left;
     width: 30%;
@@ -95,6 +110,7 @@ nav li {
     padding: 10px;
     background-color: #efefef;
     list-style-type: none;
+
 }
 
 nav li:hover {
@@ -108,25 +124,18 @@ nav a {
 
 nav a:hover {
     color: #385874;
-}
-
-.article {
-    display: block;
-    float: left;
-    width: 70%;
-}
+}   
 
 footer {
     background-color: #c4a644;
     float: left;
-    width: 100%;
-    padding: 20px;
-    border-bottom: 1px solid #4329b8;
+    width: 101%;
+    padding: 40px
 }
 
 footer p {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 footer small {
@@ -134,44 +143,367 @@ footer small {
     display: block;
 }
 
-.cognito {
-    height: 370px !important;
-    overflow: hidden;
-    float: left;
-    margin-top: 20px;
-}
-
 img {
     max-width: 100%;
     height: auto;
 }   
+ 
+
+/* ------formulario----*/
+
+
+/*.wrap-container {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}*/
+    
 
 #tenho-interesse {
-    width: 100vw;
-    border-top: 1px solid #4329b8;
+    width: 97.05%;
+    border-top: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+    display: block;
+}
+
+.wrap-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+text-align: center;
+margin-left: 20px;
+}
+
+label {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+}       
+
+.formulario-head {
+    padding-bottom: 10px;
+}
+  
+.formulario-head p {
+    padding-left: 20px;
+    margin-bottom: 23px;
+    line-height: 1;
+    margin-top: 0;
+}  
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 52%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    cursor: pointer;
+    width: auto;
+    width: 52%;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro';
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e4d08e;
+}
+
+
+/*-----landing-page--------*/
+
+#banner {
+    background-image: url(../imagens/pexels-antoni-shkraba-4348401-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.legenda-container {
+    width: 30vw;    
+    float: right;
+    margin: 7vw 6vw 0 0;
+   
+}
+
+.legenda {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 38px;
+   
+}
+
+.legenda h5, .legenda h4{
+    color: rgb(92, 86, 86);
+    line-height: 1;
+}
+
+.footer-sm {
+    background-color: #c4a644;
+    float: left;
+    width: 101%;
+    padding: 18px 0 9px 18px;
+}
+
+/*-----botoes-------*/
+
+.btn-cta {
+    border-radius: 25px;
+    display: inline;
+    background-color: #c4a644;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 1px 1px 4px rgb(82, 80, 80);
+    padding: 12px 6px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 600;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-cta-blog {
+    border-radius: 25px;
+    display: inline;
+    background-color: #c4a644;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 1px 1px 4px rgb(82 80 80);
+    padding: 12px 6px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 600;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 180px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.btn-cta-duvidas {
+border-radius: 25px;
+display: inline;
+background-color: #c4a644;
+color: #fff;
+font-size: 16;
+box-shadow: 1px 1px 4px rgb(82, 80, 80);
+padding: 12px 6px;
+width: auto;
+text-decoration: none;
+font-weight: 600;
+float: left;
+text-align: center;
+text-transform: uppercase;
+margin: 15px 0 15px 20px; /*----top-right-bottom-left--*/
+}
+
+.btn-cta-blog:hover {
+    background-color: #e2d3a1;
+    color: rgb(92, 86, 86);
+}
+.btn-cta-duvidas:hover {
+    background-color: #e2d3a1;
+    color: rgb(92, 86, 86);
+}
+.btn-cta:hover {
+    background-color: #e2d3a1;
+    color: rgb(92, 86, 86);
+}
+
+/*------saiba-mais-----*/
+
+.saiba-mais {
+    background-color: #fff;
+    padding: 40px 20;
+    border-bottom: solid 1px black; 
+}
+
+.saiba-mais p,
+.saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left !important;
+    padding: 20px;
+}
+
+.header-sm {
+    display: block;
+    float: left;
+    width: 100%;               /*---ajuste-img----*/
+    background: #fff;
+    padding: 20px 0;
+}
+
+
+/*-----duvidas-frequentes---*/
+
+.head-duvidas {
+    padding-left: 20px;
+    font-size: 1.9rem;
+}
+
+
+dt {
+    font-weight: 600;
+    font-size: 1.3rem;      /*-----defines-terms--------*/
+    padding-left: 20px;
+}
+    
+
+dd { 
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.05rem;          /*------defines-description-----*/
+    color: #cac7c6;
+    font-family: 'Source Sans Pro';  
+}
+
+
+dl {
+    margin: 20px 0;             /*-----description-list------*/
+}
+
+.duvidas-frequentes {
+    margin-left: 20px;
 }
 
 
 
-@media (max-width: 414px) {
+
+/*-----layout-responsivo-mobile--------*/
+
+
+ 
+ 
+@media (max-width: 880px) {
+
     .nav, .article {
-        width: auto;
+        width: 93%;
     }
+
     .container {
+        padding-left: 4%;
+        padding-right: 3%;  
+    }
+
+    .saiba-mais p {
+        width: 85%; 
+    }
+    
+    .duvidas-frequentes {
+        width: 82%;
+    }
+
+    .saiba-mais img { 
+       width: 80%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        padding-left: 6%;
+    }
+
+    h2, h3 {
+        font-size: 1.4rem;
+    }
+
+    footer p {
+        margin-left: -10px;
+    }
+
+    footer {
+        background-color: #c4a644;  
+        float: left;
+        width: 100%;
+        padding: 18px 0 9px 0px;
+    }
+
+    .btn-cta-blog {
+        float: left;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .btn-cta {
+        padding: 9px 1px;
+        width: 69%;
+        font-size: 15px;
+        display: block;
+    }
+    
+    .legenda {
+        padding: 6px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .legenda h5 {
+        width: 105%
+    }
+
+    form {
+        margin-left: -32px; 
+    }
+
+    .formulario-head {
+        width: 85%;
+        padding-left: 17px;
+        margin-bottom: 23px;
+        line-height: 1;
+        margin-top: 0;
+    }
+
+    .formulario-head h1 {
         padding-left: 3%;
-        padding-right: 3%;
+    }
+
+
+    .form-group input, .form-group textarea {
+        width: 75% 
     }
 }
 
-@media (max-width: 900px) {
-    .nav, .article {
-        width: auto;
-    }
-    .container {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-}
+
+
+
+
+
+
+
 
 
 

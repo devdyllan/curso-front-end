@@ -1,0 +1,103 @@
+<!-----Blogue sobre meus servicos----->
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    
+                    <!------CSS----->
+                <link rel="stylesheet" href="./css/reset.css">
+                <link rel="stylesheet" href="./css/styles.css">
+                    
+                    <!-----Fontes---->
+                <link rel="preconnect" href="https://fonts.googleapis.com"> 
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+                <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+                    <!------Icones----->
+                <link rel="shortcut icon" href="./imagens/favicon_io/favicon.ico"> <!----17x17px---->
+                <link rel="apple-touch-icon" href="./imagens/favicon_io/apple-touch-icon.png">
+                <title>ProntoCloud</title>
+
+            </head>
+            <body>
+            <div class="main-container">
+                        <header class="header-sm">
+                            <div class="container">
+                                <img src="./imagens/Untitled design.png" alt="ProntoCloud">
+                            </div>
+                        </header>
+
+                        <section id="banner">
+                         <div class="container">
+                             <div class="legenda-container">
+                                <div class="legenda">
+                                    <h4>Crie seu site profissional</h4>
+                                    <h5>Aqui na ProntoCloud você tem solução completa</h5>
+                                </div>
+                                <a class="btn-cta" href="#tenho-interesse">Tenho Interesse</a>
+                             </div>
+                         </div>
+                        </section>
+
+                <section class="saiba-mais">
+                    <div class="container">
+                        <h1>Planejamento para criação de sites</h1>
+                        <img src="./imagens/pexels-fauxels-3184292.jpg" alt="Planejamento para criação de sites">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi magnam, asperiores quibusdam sit veritatis repudiandae ex eius distinctio neque, vel, id incidunt dolorem ab temporibus odio minima libero dignissimos rerum?
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab perspiciatis autem quo quae eveniet pariatur perferendis unde dignissimos eos atque est, dolorem vero natus, odio quasi. Est quis dolor facere.</p>
+                    </div>    
+                    <a class="btn-cta-blog" href="#tenho-interesse">Tenho Interesse</a>
+               </section>  
+
+               <section class="duvidas-frequentes">
+                   <div class="container">
+                       <h1 class="head-duvidas">Dúvidas frequentes</h1>
+                       <dl>
+                           <dt>Meu site vai aparecer no Google?</dt>
+                             <dd>Sim! Nosso site é otimizado para mecanismos de busca.</dd>
+                           <dt>Quem cria o layout?</dt>
+                             <dd>A equipe do ProntoCloud!</dd>  
+                           <dt>Onde o site fica hospedado? É seguro?</dt>
+                             <dd>Fica em nossos servidores, trabalhamos com certificado digital.</dd>     
+                       </dl>
+                       <a class="btn-cta-duvidas" href="#tenho-interesse">Tenho Interesse</a>
+                   </div>
+               </section>
+
+            <section id="tenho-interesse">
+                <div class="wrap-container">
+                    <article class="formulario-head">
+                        <h1 >Ficou interessado?</h1>
+                        <p>Então preencha os campos abaixo para receber mais informaçōes sobre nossos produtos e serviços.</p>
+                    </article>
+
+                    <form class="form" action="https://formspree.io/f/mayvoezb" method="POST" id= "my-form">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="Mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="8"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                        <div id="status"></div>
+                    </form>
+                </div>            
+                </section>  
+                <script src="./main.js"></script>   
+
+                <footer class="foote-sm">
+                        <div class="container">
+                          <p>&copy; ProntoCloud. Todos os direitos reservados.
+                          <small>Desenvolvido por Felipe Reis</small></p>
+                        </div>
+                </footer>
+            </body>
+        </html>
